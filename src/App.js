@@ -34,6 +34,14 @@ const zoomConfig = {
   role: 0, // 0 for guest, 1 for host
 };
 
+
+// var apiKey='1bjXQT0iQxKx_HJssJFx2Q';
+// var apiSecret='tdkMxYqBZz2hotRQLnEvV6naD4yQpt4tyg28';
+// var meetingNumber = '9819476258'
+// var leaveUrl = 'http://localhost:3000'
+// var userName = 'WebSDK';
+// var userEmail = 'raut.dhanashri38@gmail.com'
+// var passWord  = '598224'
 const App = () => {
   const [config, setConfig] = useState(zoomConfig);
   const [isSubmitted, setIsSubmitted] = useState({
